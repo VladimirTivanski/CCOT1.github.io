@@ -105,7 +105,7 @@
             }
 
             for (let i = 0; i < pictures.length; i++) {
-                if (((startYear) < pictures[i].start) && !isDisplaying(pictures[i])) {
+                if (((startYear) < pictures[i].start) && (endYear > pictures[i].start) && !isDisplaying(pictures[i])) {
                     displaying.push(pictures[i]);
                     document.getElementById("a" + pictures[i].pos).style.backgroundImage = "url(" + pictures[i].img + ")";
                     document.getElementById("timePeriod1").innerHTML = startYear;
