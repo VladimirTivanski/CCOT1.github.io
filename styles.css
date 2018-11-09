@@ -18,6 +18,7 @@ body {
 
 .timePeriodContainer {
     float: top;
+    text-align: center;
 }
 
 #timePeriod1 {
