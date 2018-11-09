@@ -98,6 +98,9 @@
         }
 
         function displayNextTimePeriod() {
+            document.getElementById("timePeriod1").innerHTML = startYear;
+            document.getElementById("timePeriod2").innerHTML = endYear;
+            
             for (let i = 0; i < displaying.length; i++) {
                 if ((endYear) >= pictures[i].end) {
                     displaying.splice(i, 1);
@@ -108,8 +111,6 @@
                 if (((startYear) < pictures[i].start) && (endYear > pictures[i].start) && !isDisplaying(pictures[i])) {
                     displaying.push(pictures[i]);
                     document.getElementById("a" + pictures[i].pos).style.backgroundImage = "url(" + pictures[i].img + ")";
-                    document.getElementById("timePeriod1").innerHTML = startYear;
-                    document.getElementById("timePeriod2").innerHTML = endYear;
                 }
             }
 
