@@ -1,0 +1,137 @@
+body {
+    box-sizing: border-box;
+    background-color: black;
+    font-family: monospace;
+    color: #ffffff;
+}
+
+#desc {
+    text-align: center;
+}
+
+#pictures {
+    width: 50vw;
+    height: 50vw;
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+
+.timePeriodContainer {
+    float: top;
+}
+
+#timePeriod1 {
+    display: inline;
+    float: left;
+    text-align: center;
+    margin-left: 7vw;
+    margin-top: 24vw;
+    font-size: 5vw;
+}
+
+#timePeriod2 {
+    display: inline;
+    float: right;
+    text-align: center;
+    margin-right: 5vw;
+    margin-top: 24vw;
+    font-size: 5vw;
+}
+
+.a2x1 {
+    width: 66.66%;
+    height: 33.33%;
+    display: inline-block;
+}
+
+.a1x2 {
+    height: 66.66%;
+    width: 33.33%;
+    display: inline-block;
+}
+
+.a2x1 .a1x1 {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.a1x2 .a1x1 {
+    height: 50%;
+    width: 100%;
+    float: right;
+}
+
+.a1x1 {
+}
+#a11 {
+    float: right;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#a12 {
+    float: left;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#a10 {
+    float: left;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#a13 {
+    float: right;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#a1 {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#a2 {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#a3 {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#a4 {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#a5 {
+    width: 33.33%;
+    height: 33.33%;
+    float: right;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#a6 {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#a7 {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#a8 {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#a9 {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
