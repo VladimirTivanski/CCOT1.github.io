@@ -102,8 +102,12 @@
             document.getElementById("timePeriod2").innerHTML = endYear;
             
             for (let i = 0; i < displaying.length; i++) {
-                if ((endYear) >= pictures[i].end) {
-                    displaying.splice(i, 1);
+                for (let j = 0; j < pictures.length; j++) {
+                    if (displaying[i].description === pictures[j].description) {
+                        if ((endYear) >= pictures[j].end) {
+                            displaying.splice(i, 1);
+                        }
+                    }
                 }
             }
 
