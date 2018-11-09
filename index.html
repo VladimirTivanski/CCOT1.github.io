@@ -114,6 +114,22 @@
             for (let i = 0; i < pictures.length; i++) {
                 if (((startYear) < pictures[i].start) && (endYear > pictures[i].start) && !isDisplaying(pictures[i])) {
                     displaying.push(pictures[i]);
+                    if (pictures[i].pos === 10) {
+                        document.getElementById("a1").style.backgroundImage = "";
+                        document.getElementById("a2").style.backgroundImage = "";
+                    }
+                    if (pictures[i].pos === 11) {
+                        document.getElementById("a3").style.backgroundImage = "";
+                        document.getElementById("a6").style.backgroundImage = "";
+                    }
+                    if (pictures[i].pos === 12) {
+                        document.getElementById("a4").style.backgroundImage = "";
+                        document.getElementById("a7").style.backgroundImage = "";
+                    }
+                    if (pictures[i].pos === 13) {
+                        document.getElementById("a8").style.backgroundImage = "";
+                        document.getElementById("a9").style.backgroundImage = "";
+                    }
                     document.getElementById("a" + pictures[i].pos).style.backgroundImage = "url(" + pictures[i].img + ")";
                 }
             }
