@@ -9,6 +9,10 @@ body {
     text-align: center;
 }
 
+#switch {
+    text-align: center;
+}
+
 #pictures {
     width: 50vw;
     height: 50vw;
